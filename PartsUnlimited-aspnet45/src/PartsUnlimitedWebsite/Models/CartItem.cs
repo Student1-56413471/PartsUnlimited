@@ -16,6 +16,9 @@ namespace PartsUnlimited.Models
         [DataType(DataType.DateTime)]
         public DateTime DateCreated { get; set; }
 
-        public virtual Product Product { get; set; }
+        public virtual Product Product { get; set; }//My first change
+
+
     }
-}
+}My commit
+
