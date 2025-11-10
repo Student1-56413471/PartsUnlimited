@@ -4,7 +4,8 @@ using System.ComponentModel.DataAnnotations;
 namespace PartsUnlimited.Models
 {
     public class CartItem : ILineItem
-    {
+{
+        //My first change
         [Key]
         public int CartItemId { get; set; }
 
@@ -18,8 +19,6 @@ namespace PartsUnlimited.Models
 
         public virtual Product Product { get; set; }//My second change
         
-
-
 
     }
 
